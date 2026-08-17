@@ -1,0 +1,96 @@
+============================================================
+EXPECTATION-MAXIMIZATION ALGORITHM
+============================================================
+
+Dataset created successfully.
+
+Number of data points:
+200
+
+Number of clusters:
+2
+
+============================================================
+GAUSSIAN MIXTURE MODEL
+============================================================
+
+Training model using Expectation-Maximization...
+Training completed successfully.
+
+============================================================
+MODEL PARAMETERS
+============================================================
+
+Cluster Means:
+[ 4.89566882 10.02016994]
+
+Cluster Covariances:
+[0.81747606 0.90785176]
+
+Cluster Weights:
+[0.49974443 0.50025557]
+
+============================================================
+CLUSTER ASSIGNMENTS
+============================================================
+
+First 20 data points and their cluster labels:
+Data Point: 5.497 -> Cluster: 0
+Data Point: 4.862 -> Cluster: 0
+Data Point: 5.648 -> Cluster: 0
+Data Point: 6.523 -> Cluster: 0
+Data Point: 4.766 -> Cluster: 0
+Data Point: 4.766 -> Cluster: 0
+Data Point: 6.579 -> Cluster: 0
+Data Point: 5.767 -> Cluster: 0
+Data Point: 4.531 -> Cluster: 0
+Data Point: 5.543 -> Cluster: 0
+Data Point: 4.537 -> Cluster: 0
+Data Point: 4.534 -> Cluster: 0
+Data Point: 5.242 -> Cluster: 0
+Data Point: 3.087 -> Cluster: 0
+Data Point: 3.275 -> Cluster: 0
+Data Point: 4.438 -> Cluster: 0
+Data Point: 3.987 -> Cluster: 0
+Data Point: 5.314 -> Cluster: 0
+Data Point: 4.092 -> Cluster: 0
+Data Point: 3.588 -> Cluster: 0
+
+============================================================
+CLUSTER PROBABILITIES
+============================================================
+
+First 10 data points:
+[[9.99984884e-01 1.51163411e-05]
+ [9.99999589e-01 4.10506686e-07]
+ [9.99964112e-01 3.58875526e-05]
+ [9.94332239e-01 5.66776097e-03]
+ [9.99999761e-01 2.39149450e-07]
+ [9.99999761e-01 2.39171551e-07]
+ [9.92145773e-01 7.85422686e-03]
+ [9.99928613e-01 7.13872277e-05]
+ [9.99999936e-01 6.38079120e-08]
+ [9.99980351e-01 1.96492501e-05]]
+
+Average Log-Likelihood:
+-2.034663638516958
+
+============================================================
+GENERATING GRAPH
+============================================================
+
+Graph saved successfully!
+Graph location:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\10th expriement\OUTPUT\10_expectation_maximization_graph.png
+
+============================================================
+OUTPUT SAVED SUCCESSFULLY
+============================================================
+
+Text output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\10th expriement\OUTPUT\10_expectation_maximization_output.txt
+
+Graph output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\10th expriement\OUTPUT\10_expectation_maximization_graph.png
+
+Program completed successfully.

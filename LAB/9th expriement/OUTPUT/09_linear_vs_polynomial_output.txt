@@ -1,0 +1,88 @@
+============================================================
+COMPARE LINEAR AND POLYNOMIAL REGRESSION
+============================================================
+
+Dataset
+-------
+X values:
+[ 1  2  3  4  5  6  7  8  9 10]
+
+Y values:
+[  2   5   8  18  25  40  55  72  90 115]
+
+============================================================
+LINEAR REGRESSION
+============================================================
+
+Slope:
+12.472727272727276
+
+Intercept:
+-25.600000000000023
+
+Predicted Values:
+[-13.12727273  -0.65454545  11.81818182  24.29090909  36.76363636
+  49.23636364  61.70909091  74.18181818  86.65454545  99.12727273]
+
+Mean Squared Error:
+85.15636363636365
+
+R2 Score:
+0.9377784863098322
+
+============================================================
+POLYNOMIAL REGRESSION
+============================================================
+
+Polynomial Coefficients:
+[ 0.         -1.40227273  1.26136364]
+
+Intercept:
+2.1499999999999915
+
+Predicted Values:
+[  2.00909091   4.39090909   9.29545455  16.72272727  26.67272727
+  39.14545455  54.14090909  71.65909091  91.7        114.26363636]
+
+Mean Squared Error:
+1.149545454545453
+
+R2 Score:
+0.9991600573910964
+
+============================================================
+PERFORMANCE COMPARISON
+============================================================
+
+Linear Regression:
+MSE     = 85.15636363636365
+R2 Score = 0.9377784863098322
+
+Polynomial Regression:
+MSE     = 1.149545454545453
+R2 Score = 0.9991600573910964
+
+============================================================
+BEST MODEL
+============================================================
+Polynomial Regression performs better.
+
+============================================================
+GENERATING GRAPH
+============================================================
+
+Graph saved successfully!
+Graph location:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\9th expriement\OUTPUT\09_linear_vs_polynomial_graph.png
+
+============================================================
+OUTPUT SAVED SUCCESSFULLY
+============================================================
+
+Text output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\9th expriement\OUTPUT\09_linear_vs_polynomial_output.txt
+
+Graph output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\9th expriement\OUTPUT\09_linear_vs_polynomial_graph.png
+
+Program completed successfully.

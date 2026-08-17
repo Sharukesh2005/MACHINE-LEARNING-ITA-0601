@@ -1,0 +1,92 @@
+============================================================
+CREDIT SCORE CLASSIFICATION
+============================================================
+
+Dataset:
+    Income  LoanAmount  ...  CreditHistory  CreditScore
+0    25000       20000  ...              1         Poor
+1    30000       25000  ...              1         Poor
+2    45000       30000  ...              1      Average
+3    50000       35000  ...              1      Average
+4    60000       30000  ...              1         Good
+5    75000       25000  ...              1         Good
+6    80000       20000  ...              1         Good
+7    90000       25000  ...              1    Excellent
+8   100000       30000  ...              1    Excellent
+9   120000       35000  ...              1    Excellent
+10   35000       40000  ...              0         Poor
+11   40000       45000  ...              0         Poor
+12   55000       35000  ...              1      Average
+13   70000       30000  ...              1         Good
+14   85000       20000  ...              1         Good
+
+[15 rows x 5 columns]
+
+Numerical Credit Score Labels:
+[0 0 1 1 2 2 2 3 3 3 0 0 1 2 2]
+
+============================================================
+TRAINING MODEL
+============================================================
+Model trained successfully.
+
+============================================================
+MODEL PERFORMANCE
+============================================================
+
+Actual Values:
+[3 0 0]
+
+Predicted Values:
+[3 0 0]
+
+Accuracy:
+1.0
+
+Accuracy Percentage:
+100.0 %
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         2
+           3       1.00      1.00      1.00         1
+
+    accuracy                           1.00         3
+   macro avg       1.00      1.00      1.00         3
+weighted avg       1.00      1.00      1.00         3
+
+
+============================================================
+GENERATING GRAPH
+============================================================
+
+Graph saved successfully!
+Graph location:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\11th expriement\OUTPUT\11_credit_score_classification_graph.png
+
+============================================================
+NEW CUSTOMER CREDIT SCORE PREDICTION
+============================================================
+
+Enter customer income: Enter loan amount: Enter customer age: Enter credit history (1 = Good, 0 = Bad): 
+Predicted Credit Score:
+Excellent
+
+Prediction Probabilities:
+Poor : 0.0 %
+Average : 0.0 %
+Good : 0.0 %
+Excellent : 100.0 %
+
+============================================================
+OUTPUT SAVED SUCCESSFULLY
+============================================================
+
+Text output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\11th expriement\OUTPUT\11_credit_score_classification_output.txt
+
+Graph output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\11th expriement\OUTPUT\11_credit_score_classification_graph.png
+
+Program completed successfully.

@@ -1,0 +1,21 @@
+Linear Regression
+-----------------
+Slope: 6.5086206896551735
+Intercept: 29.827586206896548
+
+Actual Values:
+[90 40]
+
+Predicted Values:
+[88.40517241 42.84482759]
+
+Mean Squared Error: 5.318259512485127
+R2 Score: 0.9914907847800238
+
+---------------------------------------
+Enter number of study hours: Predicted Marks: 75.38793103448276
+
+---------------------------------------
+OUTPUT SAVED SUCCESSFULLY
+---------------------------------------
+File: C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\8th expriement\OUTPUT\08_linear_regression_output.txt
