@@ -1,0 +1,129 @@
+============================================================
+IRIS FLOWER CLASSIFICATION USING NAIVE BAYES
+============================================================
+
+Dataset loaded successfully.
+
+Number of samples:
+150
+
+Number of features:
+4
+
+Feature names:
+- sepal length (cm)
+- sepal width (cm)
+- petal length (cm)
+- petal width (cm)
+
+Flower classes:
+0 = setosa
+1 = versicolor
+2 = virginica
+
+============================================================
+DATASET SPLIT
+============================================================
+
+Training samples:
+120
+
+Testing samples:
+30
+
+============================================================
+TRAINING NAIVE BAYES MODEL
+============================================================
+Naive Bayes model trained successfully.
+
+============================================================
+MODEL PERFORMANCE
+============================================================
+
+Actual Labels:
+[0 2 1 1 0 1 0 0 2 1 2 2 2 1 0 0 0 1 1 2 0 2 1 2 2 1 1 0 2 0]
+
+Predicted Labels:
+[0 2 1 1 0 1 0 0 2 1 2 2 2 1 0 0 0 1 1 2 0 2 1 2 2 2 1 0 2 0]
+
+Accuracy:
+0.9666666666666667
+
+Accuracy Percentage:
+96.67 %
+
+============================================================
+CLASSIFICATION REPORT
+============================================================
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       1.00      0.90      0.95        10
+   virginica       0.91      1.00      0.95        10
+
+    accuracy                           0.97        30
+   macro avg       0.97      0.97      0.97        30
+weighted avg       0.97      0.97      0.97        30
+
+
+============================================================
+CONFUSION MATRIX
+============================================================
+[[10  0  0]
+ [ 0  9  1]
+ [ 0  0 10]]
+
+Confusion matrix saved to:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\15th expriement\OUTPUT\15_iris_naive_bayes_confusion_matrix.png
+
+============================================================
+GENERATING ACCURACY GRAPH
+============================================================
+
+Accuracy graph saved to:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\15th expriement\OUTPUT\15_iris_naive_bayes_accuracy_graph.png
+
+============================================================
+PREDICTION PROBABILITIES
+============================================================
+
+First 10 test samples:
+Sample 1 : [1.00000000e+00 2.10423314e-20 1.24046578e-25]
+Sample 2 : [8.47863245e-143 8.77457737e-002 9.12254226e-001]
+Sample 3 : [2.60593948e-36 9.99999490e-01 5.10180419e-07]
+Sample 4 : [1.34649967e-36 9.99999567e-01 4.32500769e-07]
+Sample 5 : [1.00000000e+00 6.60691119e-21 6.79223517e-26]
+Sample 6 : [2.73542219e-122 6.48278624e-001 3.51721376e-001]
+Sample 7 : [1.00000000e+00 1.88327990e-22 1.17752321e-26]
+Sample 8 : [1.00000000e+00 3.26981656e-17 1.29080875e-22]
+Sample 9 : [3.55962899e-175 1.47628395e-004 9.99852372e-001]
+Sample 10 : [1.79032190e-104 9.93265431e-001 6.73456865e-003]
+
+============================================================
+NEW IRIS FLOWER PREDICTION
+============================================================
+
+Enter flower measurements:
+Enter sepal length (cm): Enter sepal width (cm): Enter petal length (cm): Enter petal width (cm): 
+Predicted Flower:
+setosa
+
+Prediction Probabilities:
+setosa : 100.0 %
+versicolor : 0.0 %
+virginica : 0.0 %
+
+============================================================
+OUTPUT SAVED SUCCESSFULLY
+============================================================
+
+Text output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\15th expriement\OUTPUT\15_iris_naive_bayes_output.txt
+
+Confusion matrix:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\15th expriement\OUTPUT\15_iris_naive_bayes_confusion_matrix.png
+
+Accuracy graph:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\15th expriement\OUTPUT\15_iris_naive_bayes_accuracy_graph.png
+
+Program completed successfully.

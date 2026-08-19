@@ -1,0 +1,206 @@
+============================================================
+COMPARISON OF DIFFERENT CLASSIFICATION ALGORITHMS
+============================================================
+
+Dataset: Iris Flower Dataset
+
+Number of samples:
+150
+
+Number of features:
+4
+
+Features:
+- sepal length (cm)
+- sepal width (cm)
+- petal length (cm)
+- petal width (cm)
+
+Classes:
+0 = setosa
+1 = versicolor
+2 = virginica
+
+============================================================
+DATASET SPLIT
+============================================================
+
+Training samples:
+120
+
+Testing samples:
+30
+
+============================================================
+TRAINING CLASSIFICATION MODELS
+============================================================
+
+--------------------------------------------
+Logistic Regression
+--------------------------------------------
+Model trained successfully.
+
+Accuracy:
+0.9333333333333333
+
+Accuracy Percentage:
+93.33 %
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       0.90      0.90      0.90        10
+   virginica       0.90      0.90      0.90        10
+
+    accuracy                           0.93        30
+   macro avg       0.93      0.93      0.93        30
+weighted avg       0.93      0.93      0.93        30
+
+
+--------------------------------------------
+KNN
+--------------------------------------------
+Model trained successfully.
+
+Accuracy:
+0.9333333333333333
+
+Accuracy Percentage:
+93.33 %
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       0.83      1.00      0.91        10
+   virginica       1.00      0.80      0.89        10
+
+    accuracy                           0.93        30
+   macro avg       0.94      0.93      0.93        30
+weighted avg       0.94      0.93      0.93        30
+
+
+--------------------------------------------
+Decision Tree
+--------------------------------------------
+Model trained successfully.
+
+Accuracy:
+0.9333333333333333
+
+Accuracy Percentage:
+93.33 %
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       0.90      0.90      0.90        10
+   virginica       0.90      0.90      0.90        10
+
+    accuracy                           0.93        30
+   macro avg       0.93      0.93      0.93        30
+weighted avg       0.93      0.93      0.93        30
+
+
+--------------------------------------------
+Naive Bayes
+--------------------------------------------
+Model trained successfully.
+
+Accuracy:
+0.9666666666666667
+
+Accuracy Percentage:
+96.67 %
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       1.00      0.90      0.95        10
+   virginica       0.91      1.00      0.95        10
+
+    accuracy                           0.97        30
+   macro avg       0.97      0.97      0.97        30
+weighted avg       0.97      0.97      0.97        30
+
+
+--------------------------------------------
+SVM
+--------------------------------------------
+Model trained successfully.
+
+Accuracy:
+0.9666666666666667
+
+Accuracy Percentage:
+96.67 %
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       1.00      0.90      0.95        10
+   virginica       0.91      1.00      0.95        10
+
+    accuracy                           0.97        30
+   macro avg       0.97      0.97      0.97        30
+weighted avg       0.97      0.97      0.97        30
+
+
+============================================================
+CLASSIFICATION ALGORITHM COMPARISON
+============================================================
+
+Algorithm                 Accuracy       
+----------------------------------------
+Logistic Regression       93.33%
+KNN                       93.33%
+Decision Tree             93.33%
+Naive Bayes               96.67%
+SVM                       96.67%
+
+============================================================
+BEST CLASSIFICATION ALGORITHM
+============================================================
+
+Best Algorithm:
+Naive Bayes
+
+Best Accuracy:
+96.67 %
+
+============================================================
+GENERATING ACCURACY COMPARISON GRAPH
+============================================================
+
+Graph saved successfully!
+Graph location:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\16th expriement\OUTPUT\16_classification_algorithms_accuracy_graph.png
+
+============================================================
+FINAL SUMMARY
+============================================================
+Logistic Regression : 93.33 %
+KNN : 93.33 %
+Decision Tree : 93.33 %
+Naive Bayes : 96.67 %
+SVM : 96.67 %
+
+Best performing algorithm:
+Naive Bayes
+with accuracy of 96.67 %
+
+============================================================
+OUTPUT SAVED SUCCESSFULLY
+============================================================
+
+Text output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\16th expriement\OUTPUT\16_classification_algorithms_output.txt
+
+Graph output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\16th expriement\OUTPUT\16_classification_algorithms_accuracy_graph.png
+
+Program completed successfully.

@@ -1,0 +1,139 @@
+============================================================
+NAIVE BAYES CLASSIFICATION FOR BANK LOAN PREDICTION
+============================================================
+
+Dataset:
+    Age  Income  ...  LoanTerm  LoanStatus
+0    22   25000  ...        60           0
+1    25   30000  ...        60           0
+2    28   35000  ...        48           0
+3    30   40000  ...        48           1
+4    32   45000  ...        48           1
+5    35   50000  ...        36           1
+6    38   55000  ...        36           1
+7    40   60000  ...        36           1
+8    42   65000  ...        36           1
+9    45   70000  ...        36           1
+10   23   28000  ...        60           0
+11   27   33000  ...        48           0
+12   31   42000  ...        48           1
+13   34   48000  ...        48           1
+14   37   52000  ...        36           1
+15   41   58000  ...        36           1
+16   44   68000  ...        36           1
+17   29   37000  ...        60           0
+18   33   46000  ...        48           1
+19   39   62000  ...        36           1
+20   48   75000  ...        36           1
+21   50   80000  ...        36           1
+22   26   32000  ...        60           0
+23   36   54000  ...        36           1
+24   43   72000  ...        36           1
+25   24   27000  ...        60           0
+26   30   43000  ...        48           1
+27   35   51000  ...        36           1
+28   46   78000  ...        36           1
+29   52   85000  ...        36           1
+
+[30 rows x 7 columns]
+
+Loan Status:
+0 = Not Eligible
+1 = Eligible
+
+============================================================
+DATASET SPLIT
+============================================================
+
+Training samples:
+24
+
+Testing samples:
+6
+
+============================================================
+TRAINING NAIVE BAYES MODEL
+============================================================
+Naive Bayes model trained successfully.
+
+============================================================
+MODEL PERFORMANCE
+============================================================
+
+Actual Loan Status:
+[0 1 1 1 0 1]
+
+Predicted Loan Status:
+[0 1 1 1 0 1]
+
+Accuracy:
+1.0
+
+Accuracy Percentage:
+100.0 %
+
+============================================================
+CLASSIFICATION REPORT
+============================================================
+              precision    recall  f1-score   support
+
+Not Eligible       1.00      1.00      1.00         2
+    Eligible       1.00      1.00      1.00         4
+
+    accuracy                           1.00         6
+   macro avg       1.00      1.00      1.00         6
+weighted avg       1.00      1.00      1.00         6
+
+
+============================================================
+CONFUSION MATRIX
+============================================================
+[[2 0]
+ [0 4]]
+
+Confusion matrix saved to:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\19th expriement\OUTPUT\19_bank_loan_confusion_matrix.png
+
+============================================================
+GENERATING ACCURACY GRAPH
+============================================================
+
+Accuracy graph saved to:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\19th expriement\OUTPUT\19_bank_loan_accuracy.png
+
+============================================================
+PREDICTION PROBABILITIES
+============================================================
+Test Sample 1 : Not Eligible = 100.0 % | Eligible = 0.0 %
+Test Sample 2 : Not Eligible = 0.0 % | Eligible = 100.0 %
+Test Sample 3 : Not Eligible = 0.0 % | Eligible = 100.0 %
+Test Sample 4 : Not Eligible = 0.0 % | Eligible = 100.0 %
+Test Sample 5 : Not Eligible = 100.0 % | Eligible = 0.0 %
+Test Sample 6 : Not Eligible = 1.49 % | Eligible = 98.51 %
+
+============================================================
+NEW CUSTOMER LOAN PREDICTION
+============================================================
+
+Enter customer age: Enter monthly income: Enter requested loan amount: Enter credit score: Enter number of existing loans: Enter loan term in months: 
+Loan Prediction:
+ELIGIBLE
+
+Prediction Probability:
+Not Eligible: 0.0 %
+Eligible: 100.0 %
+
+============================================================
+OUTPUT SAVED SUCCESSFULLY
+============================================================
+
+Text output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\19th expriement\OUTPUT\19_bank_loan_naive_bayes_output.txt
+
+Accuracy graph:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\19th expriement\OUTPUT\19_bank_loan_accuracy.png
+
+Confusion matrix:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\19th expriement\OUTPUT\19_bank_loan_confusion_matrix.png
+
+Program completed successfully.

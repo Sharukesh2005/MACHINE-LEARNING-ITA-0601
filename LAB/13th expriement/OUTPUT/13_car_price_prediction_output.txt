@@ -1,0 +1,96 @@
+============================================================
+CAR PRICE PREDICTION USING LINEAR REGRESSION
+============================================================
+
+Dataset:
+    Age  Mileage  EngineSize    Price
+0     1    10000         2.0  1800000
+1     2    20000         2.0  1650000
+2     3    30000         1.8  1500000
+3     4    40000         1.8  1350000
+4     5    50000         1.6  1200000
+5     6    60000         1.6  1050000
+6     7    70000         1.5   900000
+7     8    80000         1.5   780000
+8     9    90000         1.4   650000
+9    10   100000         1.4   550000
+10    2    18000         2.0  1700000
+11    4    42000         1.8  1400000
+12    6    65000         1.6  1000000
+13    8    85000         1.5   700000
+14    3    28000         2.0  1550000
+
+============================================================
+DATASET SPLIT
+============================================================
+
+Training samples: 12
+Testing samples: 3
+
+============================================================
+TRAINING MODEL
+============================================================
+Linear Regression model trained successfully.
+
+============================================================
+MODEL PERFORMANCE
+============================================================
+
+Actual Prices:
+[ 550000 1400000 1800000]
+
+Predicted Prices:
+[ 497898.14626766 1330076.61439987 1790577.26919388]
+
+Mean Squared Error:
+2564223623.9917483
+
+R2 Score:
+0.9905611400343862
+
+R2 Score Percentage:
+99.06 %
+
+============================================================
+MODEL COEFFICIENTS
+============================================================
+
+Age Coefficient:
+13945.431498742773
+
+Mileage Coefficient:
+-14.803806909302521
+
+Engine Size Coefficient:
+143075.64096279276
+
+Intercept:
+1638518.6248625764
+
+============================================================
+GENERATING GRAPH
+============================================================
+
+Graph saved successfully!
+Graph location:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\13th expriement\OUTPUT\13_car_price_prediction_graph.png
+
+============================================================
+NEW CAR PRICE PREDICTION
+============================================================
+
+Enter car age in years: Enter mileage in km: Enter engine size in litres: 
+Predicted Car Price:
+₹ 34214455.33
+
+============================================================
+OUTPUT SAVED SUCCESSFULLY
+============================================================
+
+Text output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\13th expriement\OUTPUT\13_car_price_prediction_output.txt
+
+Graph output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\13th expriement\OUTPUT\13_car_price_prediction_graph.png
+
+Program completed successfully.

@@ -1,0 +1,116 @@
+============================================================
+FUTURE SALES PREDICTION USING LINEAR REGRESSION
+============================================================
+
+Dataset:
+    Month  Advertising  PreviousSales  Sales
+0       1           20            100    105
+1       2           22            105    112
+2       3           25            112    118
+3       4           28            118    125
+4       5           30            125    132
+5       6           32            132    140
+6       7           35            140    148
+7       8           38            148    155
+8       9           40            155    163
+9      10           42            163    170
+10     11           45            170    178
+11     12           48            178    185
+12     13           50            185    193
+13     14           52            193    201
+14     15           55            201    210
+15     16           58            210    218
+16     17           60            218    226
+17     18           62            226    235
+18     19           65            235    243
+19     20           68            243    252
+20     21           70            252    260
+21     22           72            260    269
+22     23           75            269    278
+23     24           78            278    288
+
+============================================================
+DATASET SPLIT
+============================================================
+
+Training samples:
+19
+
+Testing samples:
+5
+
+============================================================
+TRAINING LINEAR REGRESSION MODEL
+============================================================
+Linear Regression model trained successfully.
+
+============================================================
+MODEL PERFORMANCE
+============================================================
+
+Actual Sales:
+[163 226 105 243 185]
+
+Predicted Sales:
+[162.59686032 226.54465653 106.40517719 243.74349824 185.93455321]
+
+Mean Squared Error:
+0.7719749184351483
+
+R2 Score:
+0.9996763804923053
+
+R2 Score Percentage:
+99.97 %
+
+============================================================
+MODEL COEFFICIENTS
+============================================================
+
+Month Coefficient:
+0.54247251606652
+
+Advertising Coefficient:
+-0.07356871632082584
+
+Previous Sales Coefficient:
+0.9695141333587067
+
+Intercept:
+10.382665660435862
+
+============================================================
+GENERATING SALES PREDICTION GRAPH
+============================================================
+
+Graph saved successfully!
+Graph location:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\20th expriement\OUTPUT\20_future_sales_prediction_graph.png
+
+============================================================
+FUTURE SALES PREDICTION
+============================================================
+
+Enter future month number: Enter expected advertising expenditure: Enter previous month's sales: 
+Predicted Future Sales:
+297.28
+
+============================================================
+SALES FORECAST
+============================================================
+For Month: 25
+Expected Advertising: 80.0
+Previous Sales: 288.0
+Predicted Sales: 297.28
+
+============================================================
+OUTPUT SAVED SUCCESSFULLY
+============================================================
+
+Text output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\20th expriement\OUTPUT\20_future_sales_prediction_output.txt
+
+Graph output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\20th expriement\OUTPUT\20_future_sales_prediction_graph.png
+
+Program completed successfully.

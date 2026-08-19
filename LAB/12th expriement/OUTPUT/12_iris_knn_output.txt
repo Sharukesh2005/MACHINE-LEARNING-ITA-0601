@@ -1,0 +1,85 @@
+============================================================
+IRIS FLOWER CLASSIFICATION USING KNN
+============================================================
+
+Dataset loaded successfully.
+Number of samples: 150
+Number of features: 4
+
+Features:
+- sepal length (cm)
+- sepal width (cm)
+- petal length (cm)
+- petal width (cm)
+
+Classes:
+0 = setosa
+1 = versicolor
+2 = virginica
+
+============================================================
+KNN CLASSIFIER
+============================================================
+
+Enter the value of K: Selected K: 4
+
+Training KNN model...
+Training completed successfully.
+
+============================================================
+MODEL PERFORMANCE
+============================================================
+
+Actual Labels:
+[0 2 1 1 0 1 0 0 2 1 2 2 2 1 0 0 0 1 1 2 0 2 1 2 2 1 1 0 2 0]
+
+Predicted Labels:
+[0 2 1 1 0 1 0 0 2 1 2 2 2 1 0 0 0 1 1 1 0 2 1 1 2 1 1 0 2 0]
+
+Accuracy:
+0.9333333333333333
+
+Accuracy Percentage:
+93.33 %
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       0.83      1.00      0.91        10
+   virginica       1.00      0.80      0.89        10
+
+    accuracy                           0.93        30
+   macro avg       0.94      0.93      0.93        30
+weighted avg       0.94      0.93      0.93        30
+
+
+============================================================
+GENERATING GRAPH
+============================================================
+Graph saved to:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\12th expriement\OUTPUT\12_iris_knn_graph.png
+
+============================================================
+NEW IRIS FLOWER PREDICTION
+============================================================
+Enter sepal length (cm): Enter sepal width (cm): Enter petal length (cm): Enter petal width (cm): 
+Predicted Flower:
+virginica
+
+Prediction Probabilities:
+setosa : 0.0 %
+versicolor : 0.0 %
+virginica : 100.0 %
+
+============================================================
+OUTPUT SAVED SUCCESSFULLY
+============================================================
+
+Text output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\12th expriement\OUTPUT\12_iris_knn_output.txt
+
+Graph output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\12th expriement\OUTPUT\12_iris_knn_graph.png
+
+Program completed successfully.

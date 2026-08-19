@@ -1,0 +1,137 @@
+============================================================
+PERCEPTRON BASED CLASSIFICATION
+============================================================
+
+Dataset:
+Study Hours | Attendance | Result
+-----------------------------------
+          1 |         50% | Fail
+          2 |         55% | Fail
+          2 |         60% | Fail
+          3 |         58% | Fail
+          3 |         65% | Fail
+          4 |         60% | Fail
+          4 |         70% | Pass
+          5 |         65% | Fail
+          5 |         75% | Pass
+          6 |         70% | Pass
+          6 |         80% | Pass
+          7 |         75% | Pass
+          7 |         85% | Pass
+          8 |         80% | Pass
+          8 |         90% | Pass
+          9 |         85% | Pass
+          9 |         95% | Pass
+         10 |         90% | Pass
+
+============================================================
+PERCEPTRON TRAINING
+============================================================
+
+Learning Rate:
+0.1
+
+Number of Epochs:
+20
+Epoch 1 Errors: 4
+Epoch 2 Errors: 4
+Epoch 3 Errors: 4
+Epoch 4 Errors: 4
+Epoch 5 Errors: 3
+Epoch 6 Errors: 2
+Epoch 7 Errors: 2
+Epoch 8 Errors: 2
+Epoch 9 Errors: 2
+Epoch 10 Errors: 3
+Epoch 11 Errors: 5
+Epoch 12 Errors: 4
+Epoch 13 Errors: 4
+Epoch 14 Errors: 4
+Epoch 15 Errors: 3
+Epoch 16 Errors: 2
+Epoch 17 Errors: 2
+Epoch 18 Errors: 3
+Epoch 19 Errors: 3
+Epoch 20 Errors: 2
+
+============================================================
+FINAL PERCEPTRON PARAMETERS
+============================================================
+
+Weights:
+[0.16 0.23]
+
+Bias:
+-0.20000000000000004
+
+============================================================
+MODEL PERFORMANCE
+============================================================
+
+Actual Classes:
+[0 0 0 0 0 0 1 0 1 1 1 1 1 1 1 1 1 1]
+
+Predicted Classes:
+[0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1]
+
+Correct Predictions:
+16
+
+Total Predictions:
+18
+
+Accuracy:
+88.89 %
+
+============================================================
+PREDICTION RESULTS
+============================================================
+
+Study Hours | Attendance | Actual | Predicted
+----------------------------------------------
+          1 |         50% | Fail   | Fail
+          2 |         55% | Fail   | Fail
+          2 |         60% | Fail   | Fail
+          3 |         58% | Fail   | Fail
+          3 |         65% | Fail   | Fail
+          4 |         60% | Fail   | Pass
+          4 |         70% | Pass   | Pass
+          5 |         65% | Fail   | Pass
+          5 |         75% | Pass   | Pass
+          6 |         70% | Pass   | Pass
+          6 |         80% | Pass   | Pass
+          7 |         75% | Pass   | Pass
+          7 |         85% | Pass   | Pass
+          8 |         80% | Pass   | Pass
+          8 |         90% | Pass   | Pass
+          9 |         85% | Pass   | Pass
+          9 |         95% | Pass   | Pass
+         10 |         90% | Pass   | Pass
+
+============================================================
+GENERATING GRAPH
+============================================================
+
+Graph saved successfully!
+Graph location:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\18th expriement\OUTPUT\18_perceptron_graph.png
+
+============================================================
+NEW STUDENT PREDICTION
+============================================================
+
+Enter study hours: Enter attendance percentage: 
+Predicted Result:
+PASS
+
+============================================================
+OUTPUT SAVED SUCCESSFULLY
+============================================================
+
+Text output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\18th expriement\OUTPUT\18_perceptron_output.txt
+
+Graph output:
+C:\Users\jijay\OneDrive\Desktop\MACHINE LEARNING\LAB\18th expriement\OUTPUT\18_perceptron_graph.png
+
+Program completed successfully.
